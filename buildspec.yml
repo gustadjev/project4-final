@@ -4,16 +4,14 @@ version: 0.2
 phases:
   install:
     commands:
-      #installs dependencies into the node_modules/ directory
       - curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
       - apt-get install -y nodejs
- pre_build:
+  pre_build:
     commands:
-      #installs dependencies into the node_modules/ directory
       - npm install
- build:
+  build:
     commands:
-    -npm run build
+    - npm run build
 # Include only the files required for your application to run.
 artifacts:
   files:
