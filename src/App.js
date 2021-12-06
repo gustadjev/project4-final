@@ -9,6 +9,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+	<p><a href= "https://www.linkedin.com/in/gustave-am%C3%A8-gbossou/">
+		Ame Gbossou</a>
+	</p>
         <a
           className="App-link"
           href="https://reactjs.org"
